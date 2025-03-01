@@ -12,6 +12,7 @@ or CSS frameworks.
 - No CSS frameworks (Tailwind, Bootstrap, etc.)
 - Purely text-based
 - Very fast to build and cheap to serve
+- Ships with assets included (no references to CDNs)
 
 ## Installation
 
