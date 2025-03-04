@@ -77,7 +77,7 @@ header {
 
 .header-links-container li {
   font-family: "EBGaramond";
-  font-size: 22px;
+  font-size: 1.0em;
   display: block;
 }
 
@@ -94,7 +94,7 @@ header {
   font-family: "EBGaramond";
   font-style: normal;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 1.8em;
 }
 
 /*
@@ -102,14 +102,14 @@ header {
  */
 .article-summary-title {
   font-family: "EBGaramond";
-  font-size: 32px;
+  font-size: 1.8em;
   font-style: italic;
   font-weight: normal;
 }
 
 .read-more-link {
   font-family: "EBGaramond";
-  font-size: 20px;
+  font-size: 1.2em;
   font-style: italic;
   font-weight: bold;
 }
@@ -136,12 +136,17 @@ main h1,h2,h3,h4,h5,h6 {
 
 main .article-title-header {
   font-style: italic;
-  font-size: 36px;
+  font-size: 1.8em;
+}
+
+main .list-title-header {
+  font-style: bold;
+  font-size: 1.8em;
 }
 
 main .published-content {
   font-family: "EBGaramond";
-  font-size: 18px;
+  font-size: 1.0em;
 
   /* Give room to the horizontal rule */
   margin-bottom: 25px;
@@ -149,7 +154,7 @@ main .published-content {
 
 main p {
   font-family: "EBGaramond";
-  font-size: 20px;
+  font-size: 1.0em;
   line-height: 2.0;
 }
 
@@ -179,6 +184,6 @@ footer {
 
 p.copyright-statement {
   font-family: "EBGaramond";
-  font-size: 18px;
+  font-size: 1.0em;
   font-style: italic;
 }
