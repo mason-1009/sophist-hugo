@@ -1,5 +1,7 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
+  <div class="list-head">
+    <h1 class="list-title-header">{{ .Title }}</h1>
+  </div>
   {{ .Content }}
   {{ range .Pages }}
     <div class="article-summary-container">
