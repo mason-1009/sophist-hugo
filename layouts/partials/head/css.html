@@ -1,3 +1,36 @@
+{{ with resources.Get "fonts/EBGaramond/EBGaramond-Bold.ttf" }}
+  <style type="text/css">
+    @font-face {
+      font-family: "EBGaramond";
+      src: url("{{ .RelPermalink }}");
+      font-weight: bold;
+      font-style: normal;
+    }
+  </style>
+{{ end }}
+
+{{ with resources.Get "fonts/EBGaramond/EBGaramond-Regular.ttf" }}
+  <style type="text/css">
+    @font-face {
+      font-family: "EBGaramond";
+      src: url("{{ .RelPermalink }}");
+      font-weight: normal;
+      font-style: normal;
+    }
+  </style>
+{{ end }}
+
+{{ with resources.Get "fonts/EBGaramond/EBGaramond-Italic.ttf" }}
+  <style type="text/css">
+    @font-face {
+      font-family: "EBGaramond";
+      src: url("{{ .RelPermalink }}");
+      font-weight: normal;
+      font-style: italic;
+    }
+  </style>
+{{ end }}
+
 {{ with resources.Get "css/sophist.css" }}
   <link type="text/css" rel="stylesheet" href="{{ .RelPermalink }}">
 {{ end }}
