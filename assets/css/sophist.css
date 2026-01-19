@@ -82,6 +82,13 @@ header {
   font-weight: normal;
 }
 
+.article-summary-date {
+  font-family: "EBGaramond";
+  font-size: 1.2em;
+  font-style: normal;
+  font-weight: normal;
+}
+
 .read-more-link {
   font-family: "EBGaramond";
   font-size: 1.2em;
